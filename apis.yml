@@ -1,7 +1,12 @@
 aid: qraved
 name: Qraved
-description: Qraved is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Qraved is Indonesia's leading food discovery platform, self-described as
+  the "No. 1 Food App for Indonesia," helping diners across Jakarta, Bali, Bandung,
+  Surabaya, Medan and other cities explore restaurants, read reviews and dining guides,
+  watch food videos, and connect with a community of food enthusiasts. Backed by 500
+  Global, Qraved operates a consumer web experience and iOS/Android mobile apps. As
+  of this enrichment pass the company exposes no public developer API, developer portal,
+  or machine-readable specification surface.
 url: https://raw.githubusercontent.com/api-evangelist/qraved/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +14,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://img.qraved.co/v2/image/header/preview-image.jpg
 tags:
 - Company
+- Food
+- Restaurants
+- Dining
+- Discovery
+- Reviews
+- Indonesia
+- Consumer App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/qraved-domain-security.yml
 - type: Website
   url: https://qraved.com
+- type: Blog
+  url: https://www.qraved.com/journal
+- type: Support
+  url: https://www.qraved.com/contact-us
+- type: TermsOfService
+  url: https://www.qraved.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.qraved.com/privacy-policy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
